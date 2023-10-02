@@ -4,8 +4,8 @@ from scipy import stats
 import plotly.graph_objects as go
 
 # Load the Excel file into a DataFrame
-file_path = 'G:\My Drive\_Biblos\Tesis\Estadistica Aplicada a la Investigación\Ejercicio Paired Test\Python\Ansiedad.xlsx'
-sheet_name = 'Ansiedad'
+file_path = 'Your File.xlsx'
+sheet_name = 'Sheet_name'
 df = pd.read_excel(file_path, sheet_name=sheet_name)
 
 # Exclude the first column from calculations
