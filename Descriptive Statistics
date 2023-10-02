@@ -81,3 +81,6 @@ fig = go.Figure(data=[go.Table(
 
 # Show the Plotly table
 fig.show()
+
+
+##Credits for Chat GPT
